@@ -1,12 +1,14 @@
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  margin: 0px 0px 50px;
 }
 
 .top {
   background-color: #1F2937;
-  padding: 0px 50px 50px;
+  padding: 0px 100px 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 h2 {
@@ -29,6 +31,7 @@ h1 {
   size: 48px;
   font-weight: 900;
   color: #F9FAF8;
+  margin: 0px;
 }
 
 .subtext {
@@ -38,11 +41,68 @@ h1 {
 
 .top-button {
   background-color: #3882F6;
+  font-size: 16px;
+  color: white;
+  height: 30px;
+  width: 125px;
+  border-radius: 8px;
+  border: none;
+}
+
+.top-main {
+  display: flex;
 }
 
 .content {
-  border: solid;
   display: flex;
   flex-direction: column;
-  flex: 1;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+}
+
+#top-image {
+  display: flex; 
+  flex-basis: 50%;
+}
+
+h3 {
+ font-size: 36px;
+ font-weight: 900; 
+ color: #1f2937;
+ text-align: center;
+}
+
+.container img {
+  border: solid;
+  border-color: #3882F6;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 100px 25px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 50px 150px 30px;
+}
+
+.quote p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.actual-quote {
+  font-weight: lighter;
+}
+
+.attribution {
+  text-align: right;
+  font-weight: bold;
 }
