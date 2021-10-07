@@ -106,3 +106,48 @@ h3 {
   text-align: right;
   font-weight: bold;
 }
+
+.button-container {
+  background-color: #3882F6;
+  color: white;
+  display: flex;
+  padding: 30px 75px;
+  align-items: center;
+  width: 600px;
+  margin: 70px auto;
+}
+
+.top-text {
+  font-weight: 900;
+  margin: 0px 0px;
+}
+
+.bottom-text {
+  margin: 0px 0px;
+  font-size: smaller;
+}
+
+.bottom-button {
+  color: white;
+  background-color: #3882F6;
+  border: solid;
+  width: 125px;
+  height: 35px;
+  border-radius: 8px;
+}
+
+.button-positioning {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+footer {
+  background-color: #1f2937;
+  color: rgb(211, 207, 207);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
